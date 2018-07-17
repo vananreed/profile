@@ -1,0 +1,125 @@
+.avatar {
+  width: 200px;
+  border-radius: 50%;
+}
+
+h1, h2, h3 {
+  font-family: 'Karla', sans-serif;
+}
+
+h1 {
+
+}
+
+h2 {
+  color: #e60a0a;
+}
+
+h3 {
+  margin: auto;
+}
+
+p {
+  font-family: Georgia;
+}
+
+body {
+  /*background: #f5f5f5;*/
+  background-image: url("https://images.pexels.com/photos/1054201/pexels-photo-1054201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.box {
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px auto;
+  width: 90%;
+  padding:20px;
+}
+
+#banner {
+  /*background-image: url("https://images.pexels.com/photos/1054201/pexels-photo-1054201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;*/
+}
+
+/*.banner video {
+  position: absolute;
+    left: 50%;
+    top: 50%;*/
+    /* The following will size the video to fit the full container. Not necessary, just nice.*/
+/*    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 0;
+}
+
+#banner div {
+    position: relative;
+    z-index: 1;
+}*/
+
+.card {
+  padding: 20px;
+  margin: auto;
+  width: 80%;
+  border-radius: 5px;
+
+}
+
+.card:hover {
+  background-color: black;
+  color: white;
+}
+
+.button {
+  padding: 10px;
+  /*margin: 500px auto;*/
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+.button:hover {
+  background-color: #eae6e6;
+  color: black;
+}
+
+.list-inline li{
+  display: inline;
+  margin: 0 10px;
+  font-size: 40px;
+  list-style-type: none;
+}
+
+.list-inline li i {
+  color: #e60a0a;
+  margin: 10px;
+}
+
+.list-inline li i:hover {
+  opacity: 0.6;
+}
+
+#spaced-box {
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+
+#description {
+  margin-bottom: 30px;
+}
+
+
+
+
